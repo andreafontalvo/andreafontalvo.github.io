@@ -1,324 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-15T20:16:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">John Doe</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Markdown Extra Components</title><link href="http://localhost:4000/markdown-extra-components/" rel="alternate" type="text/html" title="Markdown Extra Components" /><published>2016-02-24T22:48:00+01:00</published><updated>2016-02-24T22:48:00+01:00</updated><id>http://localhost:4000/markdown-extra-components</id><content type="html" xml:base="http://localhost:4000/markdown-extra-components/">&lt;h2 id=&quot;summary&quot;&gt;Summary:&lt;/h2&gt;
-
-&lt;p&gt;You can pick as item to see how to apply in markdown.&lt;/p&gt;
-
-&lt;h4 id=&quot;especial-elements&quot;&gt;Especial Elements&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#evidence&quot;&gt;Evidence&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#side-by-side&quot;&gt;Side-by-Side&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#star&quot;&gt;Star&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#especial-breaker&quot;&gt;Especial Breaker&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#spoiler&quot;&gt;Spoiler&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;external-elements&quot;&gt;External Elements&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#gist&quot;&gt;Gist&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#codepen&quot;&gt;Codepen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#slideshare&quot;&gt;Slideshare&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#videos&quot;&gt;Videos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;evidence&quot;&gt;Evidence&lt;/h2&gt;
-
-&lt;p&gt;You can try the evidence!&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;evidence&quot;&gt;Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.&lt;/span&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;evidence&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;side-by-side&quot;&gt;Side-by-side&lt;/h2&gt;
-
-&lt;p&gt;Like the &lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt; component.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Image&lt;/strong&gt; on the left and &lt;strong&gt;Text&lt;/strong&gt; on the right:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;side-by-side&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;toleft&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://localhost:4000/assets/images/profile.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Alt Text&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;caption&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Photo by John Doe&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;toright&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;side-by-side&quot;&gt;
-    &lt;div class=&quot;toleft&quot;&gt;
-        &lt;img class=&quot;image&quot; src=&quot;http://localhost:4000/assets/images/profile.jpg&quot; alt=&quot;Alt Text&quot; /&gt;
-        &lt;figcaption class=&quot;caption&quot;&gt;Photo by John Doe&lt;/figcaption&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;toright&quot;&gt;
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Text&lt;/strong&gt; on the left and &lt;strong&gt;Image&lt;/strong&gt; on the right:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;side-by-side&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;toleft&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;toright&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://localhost:4000/assets/images/profile.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Alt Text&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;caption&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Photo by John Doe&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;side-by-side&quot;&gt;
-    &lt;div class=&quot;toleft&quot;&gt;
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;toright&quot;&gt;
-        &lt;img class=&quot;image&quot; src=&quot;http://localhost:4000/assets/images/profile.jpg&quot; alt=&quot;Alt Text&quot; /&gt;
-        &lt;figcaption class=&quot;caption&quot;&gt;Photo by John Doe&lt;/figcaption&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;star&quot;&gt;Star&lt;/h2&gt;
-
-&lt;p&gt;You can give evidence to a post. Just add the tag to the markdown file.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;star: true&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;especial-breaker&quot;&gt;Especial Breaker&lt;/h2&gt;
-
-&lt;p&gt;You can add a especial &lt;em&gt;hr&lt;/em&gt; to your text.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;breaker&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;breaker&quot;&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;spoiler&quot;&gt;Spoiler&lt;/h2&gt;
-
-&lt;p&gt;You can add an especial hidden content that appears on hover.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;spoiler&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;p&amp;gt;&lt;/span&gt;your content&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;spoiler&quot;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;gist&quot;&gt;Gist&lt;/h2&gt;
-
-&lt;p&gt;You can add Gists from github.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;{ % gist sergiokopplin/91ff4220480727b47224245ee2e9c291 % }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;script src=&quot;https://gist.github.com/sergiokopplin/91ff4220480727b47224245ee2e9c291.js&quot;&gt; &lt;/script&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;codepen&quot;&gt;Codepen&lt;/h2&gt;
-
-&lt;p&gt;You can add Pens from Codepen.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;268&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-theme-id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-slug-hash=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;gfdDu&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-default-tab=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;result&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-user=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;chriscoyier&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'codepen'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    See the Pen &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://codepen.io/chriscoyier/pen/gfdDu/'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Crappy Recreation of the Book Cover of *The Flame Alphabet*&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; by Chris Coyier (&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://codepen.io/chriscoyier'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;@chriscoyier&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;) on &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://codepen.io'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;CodePen&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;.
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//assets.codepen.io/assets/embed/ei.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;gfdDu&quot; data-default-tab=&quot;result&quot; data-user=&quot;chriscoyier&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/chriscoyier/pen/gfdDu/&quot;&gt;Crappy Recreation of the Book Cover of *The Flame Alphabet*&lt;/a&gt; by Chris Coyier (&lt;a href=&quot;https://codepen.io/chriscoyier&quot;&gt;@chriscoyier&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;slideshare&quot;&gt;Slideshare&lt;/h2&gt;
-
-&lt;p&gt;Add your presentations here!&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;310&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;marginwidth=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;marginheight=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;scrolling=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;no&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l&quot; width=&quot;560&quot; height=&quot;310&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
-
-&lt;p&gt;Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste on your post!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;310&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.youtube.com/embed/r7XhWUDj-Ts&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;310&quot; src=&quot;https://www.youtube.com/embed/r7XhWUDj-Ts&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>jamesfoster</name></author><category term="blog" /><category term="markdown" /><category term="components" /><category term="extra" /><summary type="html">Summary:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Markdown Common Elements</title><link href="http://localhost:4000/markdown-common-elements/" rel="alternate" type="text/html" title="Markdown Common Elements" /><published>2016-02-24T22:44:00+01:00</published><updated>2016-02-24T22:44:00+01:00</updated><id>http://localhost:4000/markdown-common-elements</id><content type="html" xml:base="http://localhost:4000/markdown-common-elements/">&lt;h2 id=&quot;basic-formatting&quot;&gt;Basic formatting&lt;/h2&gt;
-
-&lt;p&gt;This note &lt;strong&gt;demonstrates&lt;/strong&gt; some of what &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; is &lt;em&gt;capable of doing&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;And that’s how to do it.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;/h2&gt;
-
-&lt;p&gt;There are six levels of headings. They correspond with the six levels of HTML headings. You’ve probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.&lt;/p&gt;
-
-&lt;h1 id=&quot;headings-can-be-small&quot;&gt;Headings can be small&lt;/h1&gt;
-
-&lt;h2 id=&quot;headings-can-be-small-1&quot;&gt;Headings can be small&lt;/h2&gt;
-
-&lt;h3 id=&quot;headings-can-be-small-2&quot;&gt;Headings can be small&lt;/h3&gt;
-
-&lt;h4 id=&quot;headings-can-be-small-3&quot;&gt;Headings can be small&lt;/h4&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;# Heading
-## Heading
-### Heading
-#### Heading&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-list&quot;&gt;Ordered list&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;A second item&lt;/li&gt;
-  &lt;li&gt;Number 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;1. Item 1
-2. A second item
-3. Number 3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;unordered-list&quot;&gt;Unordered list&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An item&lt;/li&gt;
-  &lt;li&gt;Another item&lt;/li&gt;
-  &lt;li&gt;Yet another item&lt;/li&gt;
-  &lt;li&gt;And there’s more…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;* An item
-* Another item
-* Yet another item
-* And there's more...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;paragraph-modifiers&quot;&gt;Paragraph modifiers&lt;/h2&gt;
-
-&lt;h3 id=&quot;quote&quot;&gt;Quote&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-15T21:15:36+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skanda Shastry</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Bits vs Atom!!</title><link href="http://localhost:4000/Bits-vs-atom/" rel="alternate" type="text/html" title="Bits vs Atom!!" /><published>2018-10-10T22:44:00+02:00</published><updated>2018-10-10T22:44:00+02:00</updated><id>http://localhost:4000/Bits-vs-atom</id><content type="html" xml:base="http://localhost:4000/Bits-vs-atom/">&lt;blockquote&gt;
+  &lt;p&gt;Our nuclear bases still use CD/floppy disk. 
+Our new fighter can’t even fly in the rain.
+Instead of going to mars, we have invaded the Middle East.
+We wanted flying cars, we got 140 characters. 
+ — Peter Thiel&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;&amp;gt; Here is a quote. What this is should be self explanatory.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;urls&quot;&gt;URLs&lt;/h2&gt;
-
-&lt;p&gt;URLs can be made in a handful of ways:&lt;/p&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;A named link to &lt;a href=&quot;http://www.markitdown.net/&quot;&gt;Mark It Down&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Another named link to &lt;a href=&quot;http://markitdown.net/&quot;&gt;Mark It Down&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Sometimes you just want a URL like &lt;a href=&quot;http://markitdown.net/&quot;&gt;http://markitdown.net/&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Energy consumption &amp;amp; speed of vehicle still stagnant. Automobiles still travel 80–100mph on our highways. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;The Boeing 747 first flew in 1969, yet it still is the main jet carrying people across Pacific oceans. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Until Motorola &amp;amp; Nokia come up with mobile phone AT &amp;amp; T never do any innovation in its telephone &amp;amp; telegraph design. &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*Ae6ZMqanDngaBOr18KsxxQ.jpeg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Data is the new Oil&lt;/figcaption&gt;
+&lt;p&gt;&lt;br /&gt;
+Above examples reflect, where we moving in the field of innovation &amp;amp; research. All the innovation in 20th mostly on Atoms &amp;amp; 21st century with Bits. Most of the companies in the world majorly categorized either bits or atoms companies &amp;amp; its part of one of the below 5 business models.
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Bits:&lt;/b&gt; Company which builds on bits &amp;amp; bytes (0s &amp;amp; 1s) as a fundamental building block. most of the Internet/Software company survive with this principle. Innovation in this area is consistently accelerating in this area. there are too many bits companies right now (WhatsApp, Google, Facebook, Twitter) 
+&lt;/p&gt;
+&lt;p&gt; 
+&lt;b&gt;Atoms:&lt;/b&gt; The smallest unit of matter. &amp;amp; The company which builds purely based on substances aka company having physical visible products. Innovation in this area is consistently slow down in this area. (Ford, Coca-Cola, YKK, Luxottica, GE)
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Combined Bit &amp;amp; Atom : &lt;/b&gt;
+However, the above two sectors are not mutually exclusive. There is a 3rd group where the most successful companies are coming up with products and services that really do combine the best of both worlds i.e. bits and atoms.
+The most interesting start-ups seem to sit at the intersection of the two — they use bits to manipulate atoms. (Apple, Amazon, Uber) control over both bit (software) &amp;amp; atom (Hardware) market.
+&lt;/p&gt;
+&lt;p&gt; &lt;b&gt; Converting Atoms to Bits : &lt;/b&gt; 
+The new internet age was all about the overwhelming superiority of customer experience &amp;amp; transforming the atoms to bits across the information superhighway.
+* Conversion of the Books to kindle, &lt;br /&gt;
+ * Plastic CD/DVD, walkmans to iTunes, &lt;br /&gt;
+ * Money to PayPal/VISA,  &lt;br /&gt;
+ * Blockbuster to Netflix, &lt;br /&gt;
+ * Camera roll to Digital Image, &lt;br /&gt;
+ * Print media (Newspaper) to FB/Twitter, &lt;br /&gt;
+ * College classes to Online classes (Udacity/Coursera)
+ &amp;amp; many more atom contents converts into bit version, &amp;amp; become fabulously wealthy. &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt; &lt;b&gt; Converting bits to atom: &lt;/b&gt;
+ There are hardly very few companies which transform the bits into atoms(Microprocessor, Biotech, Robotics, 3DPriniting ) In this model involves the highest Regulatory norms &amp;amp; Cost of conversion is high. &lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;* A named link to [MarkItDown][3].
-* Another named link to [MarkItDown](http://markitdown.net/)
-* Sometimes you just want a URL like &amp;lt;http://markitdown.net/&amp;gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt; &lt;b&gt;Here is the Complete story!!! 👇 👇  &lt;/b&gt; &lt;/p&gt;
+&lt;p&gt;Here is the full story of &lt;a href=&quot;https://medium.com/@skanda_shastry/bits-vs-atom-b23b16ed52f3&quot;&gt;bits vs Atom&lt;/a&gt;
+—&lt;/p&gt;</content><author><name>skanda shastry</name></author><category term="blog" /><category term="Singularity" /><category term="Atom bits" /><category term="Transformation" /><summary type="html">Our nuclear bases still use CD/floppy disk. Our new fighter can’t even fly in the rain. Instead of going to mars, we have invaded the Middle East. We wanted flying cars, we got 140 characters.  — Peter Thiel</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">How the Design Thinking Re-Imagined Billions of Life in India!!</title><link href="http://localhost:4000/Human-center-Design/" rel="alternate" type="text/html" title="How the Design Thinking Re-Imagined Billions of Life in India!!" /><published>2017-06-10T22:44:00+02:00</published><updated>2017-06-10T22:44:00+02:00</updated><id>http://localhost:4000/Human-center-Design</id><content type="html" xml:base="http://localhost:4000/Human-center-Design/">&lt;p&gt;In today’s digital transformation age,
+The slogan ‘innovate or perish’ stands true to its words. As brands can only survive in the market if they are constantly innovating and offering something new on the platter with time. Ultimately, It’s the innovation that helps businesses differentiate their products and services from competition, deliver greater value to customers, and build brands. In order to survive in this battle, Design thinking is one of the best solutions&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Well,&lt;/p&gt;
+&lt;p&gt;Kept “thinking outside the box” on this core principle new way to solve the wicked problems &amp;amp; Its a powerful tool to tackle the unknown.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*pMk3h0dIYMb_I1iJCjriPQ.jpeg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Design vs Expeirence&lt;/figcaption&gt;
+&lt;p&gt;What’s Changed? &lt;br /&gt;
+The Internet has changed absolutely everything,like other disruption affect the print media very badly from this way of consuming the news &amp;amp; Consumer behaviour around the world is changing dramatically.
+&lt;br /&gt;
+What is a better product design? &lt;br /&gt;
+From above 3 set of Images, Starting from the conventional way of getting the news with comprehensive details,full of scrolling grids, videos and text (CNN BBC NBC, TOI) which include both relevant &amp;amp; irrelevant news.
+Moved to the customised, hand curated, short, crisp and relevant news within 60 words.(In short, Flipboard)
+Finally, we are in the age where, news feed based on your behavioural data &amp;amp; digital demography via AI, deep learning &amp;amp; chat bot (Quartz,Toutiao)
+From the above example, there is a paradigm shift in the news consumption &amp;amp; also in the Product Design.&lt;/p&gt;
 
-&lt;h2 id=&quot;horizontal-rule&quot;&gt;Horizontal rule&lt;/h2&gt;
+&lt;p&gt; Here are the few example about Human center design !!!&lt;/p&gt;
+&lt;p&gt;Here is the full story of &lt;a href=&quot;https://medium.com/@skanda_shastry/design-thinking-re-imagined-billions-of-life-in-india-e1e9cccaf0aa&quot;&gt;HumanCenter Design&lt;/a&gt;
+—&lt;/p&gt;</content><author><name>skanda shastry</name></author><category term="blog" /><category term="Design Thinking" /><category term="Product Design" /><summary type="html">In today’s digital transformation age, The slogan ‘innovate or perish’ stands true to its words. As brands can only survive in the market if they are constantly innovating and offering something new on the platter with time. Ultimately, It’s the innovation that helps businesses differentiate their products and services from competition, deliver greater value to customers, and build brands. In order to survive in this battle, Design thinking is one of the best solutions</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">Unlocking the Trillion Dollar Opportunity!!</title><link href="http://localhost:4000/unlocking-trillion-dollar-Opportunity/" rel="alternate" type="text/html" title="Unlocking the Trillion Dollar Opportunity!!" /><published>2017-04-22T22:44:00+02:00</published><updated>2017-04-22T22:44:00+02:00</updated><id>http://localhost:4000/unlocking-trillion-dollar-Opportunity</id><content type="html" xml:base="http://localhost:4000/unlocking-trillion-dollar-Opportunity/">&lt;p&gt;In 1998, Kodak sold 85% of photo film worldwide.Next few years Digital Camara slowly overlap the photo film.
+&lt;br /&gt;
+In 2003, Iconic 1100 phone sold more than 500 million units by Nokia in an year. Which is highest selling phone till now.
+&lt;br /&gt;
+In 2010, Blockbuster one of the most recognizable brand in the video rental space having around 9,000 stores &amp;amp; more than 60,000 employees. The company filed for bankruptcy protection.
+&lt;br /&gt;
+In 2015, All the telecom operator in world together send 20B messages, which is less than 30B message send by the WhatsApp in a day.
+&lt;br /&gt;
+All the above well-known &amp;amp; monopoly companies are bankrupt &amp;amp; certainly there business model disappears!!
+&lt;br /&gt;
+&lt;br /&gt;
+“People think the CEO/directors of those companies must have been dumb not to see what was happening, but they were not dumb, they were very, very talented people, but they still missed the transition and made assumptions that were shown to be pretty poor in hindsight, but seemed fine at the time”. This highlights the importance of having someone in the organisation asking, constantly, what are our competitors doing to disrupt our business and our business model.
+&lt;br /&gt;
+&lt;br /&gt;
+We stand on the brink of a technological revolution that will fundamentally alter the way we live, work, and relate to one another. In its scale, scope, and complexity, this transformation will be unlike anything humankind has experienced before.This exponential growth transformed our life tremendously, in just a few years.
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;A horizontal rule is a line that goes across the middle of the page.
-It’s sometimes handy for breaking things up.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*xvRjMIkNO4P06ehEARx6nw.jpeg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;&lt;/figcaption&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;Markdown can also contain images. I’ll need to add something here sometime.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;![Markdowm Image][/image/url]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Figure Caption&lt;/em&gt;?&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;![Markdowm Image][/image/url]
-&amp;lt;figcaption class=&quot;caption&quot;&amp;gt;Photo by John Doe&amp;lt;/figcaption&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
-&lt;figcaption class=&quot;caption&quot;&gt;Photo by John Doe&lt;/figcaption&gt;
-
-&lt;p&gt;&lt;em&gt;Bigger Images&lt;/em&gt;?&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;![Markdowm Image][/image/url]{: class=&quot;bigger-image&quot; }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&quot; alt=&quot;Markdowm Image&quot; class=&quot;bigger-image&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;A HTML Example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Just a test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;A CSS Example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;.8em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;white-space&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pre&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;tt&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Monaco&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Consolas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Inconsolata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;monospace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;.05&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;A JS Example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Sticky Header&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;900&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;show-menu&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#hamburguer__open&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeOut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fast&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hasClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;show-menu&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#hamburguer__open&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fast&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>johndoe</name></author><category term="blog" /><category term="markdown" /><category term="elements" /><summary type="html">Basic formatting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">:ramen: Indigo, minimalist jekyll theme</title><link href="http://localhost:4000/indigo-jekyll-theme/" rel="alternate" type="text/html" title=":ramen: Indigo, minimalist jekyll theme" /><published>2016-01-23T22:10:00+01:00</published><updated>2016-01-23T22:10:00+01:00</updated><id>http://localhost:4000/indigo-jekyll-theme</id><content type="html" xml:base="http://localhost:4000/indigo-jekyll-theme/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; Here are the few areas where disruption happened &amp;amp; it will alter the way of people life!!!&lt;/p&gt;
+&lt;p&gt;Here is the full story of [Digital Disruption] (https://medium.com/@skanda_shastry/unlocking-the-trillion-dollar-opportunity-20ba4c9a89a4)
+—&lt;/p&gt;</content><author><name>skanda shastry</name></author><category term="blog" /><category term="Innovation" /><category term="Digital Disruption" /><category term="Business model" /><summary type="html">In 1998, Kodak sold 85% of photo film worldwide.Next few years Digital Camara slowly overlap the photo film. In 2003, Iconic 1100 phone sold more than 500 million units by Nokia in an year. Which is highest selling phone till now. In 2010, Blockbuster one of the most recognizable brand in the video rental space having around 9,000 stores &amp;amp; more than 60,000 employees. The company filed for bankruptcy protection. In 2015, All the telecom operator in world together send 20B messages, which is less than 30B message send by the WhatsApp in a day. All the above well-known &amp;amp; monopoly companies are bankrupt &amp;amp; certainly there business model disappears!! “People think the CEO/directors of those companies must have been dumb not to see what was happening, but they were not dumb, they were very, very talented people, but they still missed the transition and made assumptions that were shown to be pretty poor in hindsight, but seemed fine at the time”. This highlights the importance of having someone in the organisation asking, constantly, what are our competitors doing to disrupt our business and our business model. We stand on the brink of a technological revolution that will fundamentally alter the way we live, work, and relate to one another. In its scale, scope, and complexity, this transformation will be unlike anything humankind has experienced before.This exponential growth transformed our life tremendously, in just a few years.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">:ramen: Indigo, minimalist jekyll theme</title><link href="http://localhost:4000/indigo-jekyll-theme/" rel="alternate" type="text/html" title=":ramen: Indigo, minimalist jekyll theme" /><published>2016-01-23T22:10:00+01:00</published><updated>2016-01-23T22:10:00+01:00</updated><id>http://localhost:4000/indigo-jekyll-theme</id><content type="html" xml:base="http://localhost:4000/indigo-jekyll-theme/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Example of project - Indigo Minimalist Jekyll Template - &lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Demo&lt;/a&gt;. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.&lt;/p&gt;
 
@@ -339,4 +106,4 @@ It’s sometimes handy for breaking things up.&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Check it out&lt;/a&gt; here.
-If you need some help, just &lt;a href=&quot;http://github.com/sergiokopplin/indigo/issues&quot;&gt;tell me&lt;/a&gt;.&lt;/p&gt;</content><author><name>johndoe</name></author><category term="project" /><category term="jekyll" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png" /><media:content medium="image" url="https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+If you need some help, just &lt;a href=&quot;http://github.com/sergiokopplin/indigo/issues&quot;&gt;tell me&lt;/a&gt;.&lt;/p&gt;</content><author><name>johndoe</name></author><category term="project" /><category term="jekyll" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png" /></entry></feed>
