@@ -124,7 +124,6 @@ plugins:
   - jekyll-admin
   - jekyll-paginate-v2
   - jekyll-fontawesome-svg
-  - jekyll-include-cache
 
 jekyll-mentions:
     base_url: https://github.com
