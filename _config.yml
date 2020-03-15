@@ -1,6 +1,6 @@
 # main text of home
-name: Skanda Shastry
-bio: Passionately Curious💡 Addicted to Insights ❗️
+name: Andrea Fontalvo
+bio: Electronics Engineer, tech and photography enthusiast
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -8,21 +8,21 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/any.jpg
+picture: assets/images/2020.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: http://skanda-shastry.github.io/iCard/ 
 
-url: https://skanda-shastry.github.io
+url: https://andreafontalvo.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-64473606-2'
+# analytics-google: 'UA-64473606-2'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -35,31 +35,31 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: skanda_ms
+# twitter: skanda_ms
 # google: mygoogle
-instagram: skanda_ms
+instagram: andreacfontalvo
 # pinterest: mypinterest
-linkedin: skandashastry02
+linkedin: afontalvoechavez
 # youtube: myyoutube
 # spotify: myspotify
-github: skanda-shastry
+github: andreafontalvo
 # gitlab: mygitlab
 # lastfm: mylastfm
-stackoverflow: 10340005/skanda-shastry
+# stackoverflow: 10340005/skanda-shastry
 # quora: userquora
 # reddit: username
-medium: skanda_shastry
+# medium: skanda_shastry
 # vimeo: myvimeo
 #tumblr: skanda-shastry
-email: skanda.shastry02@gmail.com
+email: andreafontalvoechavez@gmail.com
 
 authors:
     johndoe:
-        name: Skanda shastry
-        bio: Sarcasm by Mind | Wandr-er by Soul |Pragmatic by Thinking | Voracious Reader | Can speak English,Profanity,NoN-Sense
+        name: Andrea Fontalvo
+        bio: Electronics Engineer, tech and photography enthusiast
         external-image: false
-        picture: assets/images/any.jpg
-        twitter: skanda_ms
+        picture: assets/images/2020.jpg
+        twitter: andreacfontalvo
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -74,8 +74,8 @@ width: normal
 #projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+about: false
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
