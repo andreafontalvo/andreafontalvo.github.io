@@ -5,7 +5,10 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <h2> ABOUT</h2>
-<p>Hola! Me llamo Andrea. Nací y crecí en Barranquilla🇨🇴, pero ahora vivo en Madrid🇪🇸.</p>
+<p>Hola! Me llamo Andrea. </p>
+
+<p>Nací y crecí en Barranquilla🇨🇴, pero ahora vivo en Madrid🇪🇸.</p>
+
 <p>
 🎓 Soy ingeniera electrónica y electricista con máster en Automática y Robótica de la Univesidad Politécnica de Madrid 
 <br/>
@@ -18,7 +21,9 @@ Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/and
 
 <hr>
 
-<p>Hi! I'm Andrea. I was born and raised in Barranquilla🇨🇴, but now i live in Madrid🇪🇸.</p>
+<p>Hi! I'm Andrea. </p>
+
+<p>I was born and raised in Barranquilla🇨🇴, but now i live in Madrid🇪🇸.</p>
 
 <p>
 🎓 I'm an electronics and electrical engineer, with a master in Automation and Robotics from the Polythecnic University of Madrid
