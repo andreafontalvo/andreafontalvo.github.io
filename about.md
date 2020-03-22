@@ -16,9 +16,8 @@ layout: page
 Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/andreafontalvo">Flickr</a>
 <br/>
 
-<p>
---------------------------------------------------------------------------------------------
-</p>
+<hr>
+
 <p>Hi! I'm Andrea</p>
 
 <p>
