@@ -4,51 +4,42 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<h2>  20 SECOND BIO </h2>
-<p>Hi! Hello! Ola!! 😎 </p>
+<h2> ABOUT</h2>
+<p>Hola! Me llamo Andrea</p>
 <p>
-A Passionately Curious guy!💡  keen to learn the new things which will help in Professional & personal growth 👓  . <br/> 
-An Computer Science graduate,🎓  currently associated with an E-commerce Comapnay, having 4+ years of product building expreience in various domain.
+🎓 Soy ingeniera electrónica y electricista con máster en Automática y Robótica de la Univesidad Politécnica de Madrid 
 <br/>
-✔ Loves to understand, build and operate HA Distributed systems. <br/>
-✔ Working as Platform Operational Engineer role to create an data models, DBA best practices. <br/> 
-✔ Proficient problem solving, troubleshooting,transform the business requirement into tech feasibility. <br/>
-
+👩🏽‍💻 Cuento con experiencia en tratamiento de señales, <i>machine learning</i> e interfaces gráficas de usuario para aplicaciones científicas. 
 <br/>
-
-Previously work as Developer in Exceleron which provide an solution of smart metering grid & utility provider in North American region. 
+📷 También me gusta la fotografía! soy entusiasta y sigo aprendiendo.
+<br/>
+Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/andreafontalvo">Flickr</a>
 <br/>
 
-<br/>
-In 2013, I graduated from Jawaharlal Nehru National College of Engineering (JNNCE) Shimoga with a B.E. in Computer Science ‍💻 .  
-<br/>
-Through out college I was an active member of Computer Science Club, I learned a ton while I was there, both through personal projects and just being in an atmosphere of learning and (more importantly) doing.
-<br/>
+<p>
+--------------------------------------------------------------------------------------------
+</p>
+<p>Hi! I'm Andrea</p>
 
+<p>
+🎓 I'm an electronics and electrical engineer, with a master in Automation and Robotics from the Polythecnic University of Madrid
 <br/>
-My strengths are my diversity !! 👀  <br/>
-<i>Apart from current work, I love to Analyze/Play with data, Eager to learn the Data visualization techniques 
-which eventually took me into the Product Design via Design thinking Methodology.
+👩🏽‍💻 I'm experienced in signal processing machine learning and graphical user interfaces for scientific applications. 
 <br/>
+📷 I'm also into photography! I'm an enthusiast so i'm still learning as i go.
 <br/>
- Recently completed Course in Operational, People & Stragic management in IIM Banaglore! 
-Which gives an world class exposure & first hand experience in how to lead the team !!
-<i/><br/>
+You can check some of my pictures on my <a href="https://www.flickr.com/photos/andreafontalvo">Flickr</a>
 <br/>
-Finally, <br/>
-* Frequent visitor on Tweeter 📲 <br/>
-* Avid reader in Kindle     📚    <br/>
-* Occasional writer in Medium 📝 <br/>
-
-
-
-
 
 <h2>Skills</h2>
-
 <ul class="skill-list">
-	<li> Scripting & Devops Engineering</li>
+	<li>Signal processing</li>
+	<ul>
+	        <li>Audio signals </li>
+			<li>Biosignals: EEG, EMG, ECG, EOG </li>
+	</ul>
 	<li>Data management & Data modeling</li>
-	<li>Product Design & Design Thinking</li>
-        <li>Domain: E-commerce,Energy/Utilities,Planning,Accounting </li>
+	<li>Machine learning</li>
+	<li>Robotics</li>
+	<li>Creative thinking</li>
 </ul>
