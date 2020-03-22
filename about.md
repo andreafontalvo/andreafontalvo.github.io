@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <h2> ABOUT</h2>
-<p>Hola! Me llamo Andrea</p>
+<p>Hola! Me llamo Andrea. Nacida y criada en Barranquilla-Colombia, pero ahora vivo en Madrid, España.</p>
 <p>
 🎓 Soy ingeniera electrónica y electricista con máster en Automática y Robótica de la Univesidad Politécnica de Madrid 
 <br/>
