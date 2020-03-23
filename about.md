@@ -7,7 +7,7 @@ layout: page
 <h2> ABOUT</h2>
 <p>Hola! Me llamo Andrea. </p>
 
-<p>Nací y crecí en Barranquilla🇨🇴, pero ahora vivo en Madrid🇪🇸.</p>
+<p>Nací y crecí en Barranquilla 🇨🇴, pero ahora vivo en Madrid 🇪🇸.</p>
 
 <p>
 🎓 Soy ingeniera electrónica y electricista con máster en Automática y Robótica de la Univesidad Politécnica de Madrid 
