@@ -1,7 +1,7 @@
 <p align="center">
 </p>
-<p>Template for personal blogging forked from Sérgio Kopplin</p><hr>
-<p align="center">
+<p align="center">Template for personal blogging forked from Sérgio Kopplin</p><hr>
+<p>
     <b><a href="README.md#what-has-inside">What has inside</a></b>
     |
     <b><a href="README.md#setup">Setup</a></b>
