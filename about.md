@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<h2> ABOUT</h2>
+<h2 align="center"> ABOUT</h2>
 <p>Hola! Me llamo Andrea. </p>
 
 <p>Nací y crecí en Barranquilla (🇨🇴), pero ahora vivo en Madrid (🇪🇸).</p>
