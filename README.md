@@ -1,6 +1,6 @@
 <p align="center">
 </p>
-***
+Template for personal blogging forked from Sérgio Kopplin
 <p align="center">
     <b><a href="README.md#what-has-inside">What has inside</a></b>
     |
@@ -18,7 +18,6 @@
 
 ## Setup
 
-0. :star: to the project. :metal:
 2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
 3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
 4. Write some posts :bowtie:
