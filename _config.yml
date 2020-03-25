@@ -13,7 +13,7 @@ picture: assets/images/2020.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: false
-resume-external: true
+resume-external: false
 # resume-url: http://andreafontalvo.github.io/assets/andrea_Resume.pdf/ 
 
 url: https://andreafontalvo.github.io
