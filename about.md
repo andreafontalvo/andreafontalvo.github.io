@@ -5,7 +5,8 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <h2 align="center"> ABOUT</h2>
-<p>Hola! Me llamo Andrea. </p>
+
+<!-- <p>Hola! Me llamo Andrea. </p>
 
 <p>Nací y crecí en Barranquilla (🇨🇴), pero ahora vivo en Madrid (🇪🇸).</p>
 
@@ -19,7 +20,7 @@ layout: page
 Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/andreafontalvo">Flickr</a>
 <br/>
 
-<hr>
+<hr> -->
 
 <p>Hi! I'm Andrea. </p>
 
@@ -28,7 +29,7 @@ Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/and
 <p>
 🎓 I'm an electronics and electrical engineer, with a master in Automation and Robotics from the Polythecnic University of Madrid
 <br/>
-👩🏽‍💻 I'm experienced in signal processing machine learning and graphical user interfaces for scientific applications. 
+👩🏽‍💻 I'm experienced in signal processing, machine learning and graphical user interfaces for scientific applications. 
 <br/>
 📷 I'm also into photography! I'm an enthusiast so i'm still learning as i go.
 <br/>
