@@ -39,7 +39,7 @@ Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/and
 You can check some of my pictures on my <a href="https://www.flickr.com/photos/andreafontalvo">Flickr</a>
 <br/>
 
-<p>🎡 On my free time i'm daydreaming and listening to podcasts. 
+<p>On my free time i'm daydreaming and listening to podcasts 🎡
 
 <h2>Skills</h2>
 <ul class="skill-list">
