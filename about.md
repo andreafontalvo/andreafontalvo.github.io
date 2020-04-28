@@ -17,9 +17,6 @@ layout: page
 <br/>
 📷 También me gusta la fotografía! soy entusiasta y sigo aprendiendo.
 <br/>
-Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/andreafontalvo">Flickr</a>
-<br/>
-
 <hr> -->
 
 <p>
@@ -36,9 +33,6 @@ Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/and
 <br/>
 📷 I'm also into photography! I'm an enthusiast so i'm still learning as i go.
 <br/>
-You can check some of my pictures on my <a href="https://www.flickr.com/photos/andreafontalvo">Flickr</a>
-<br/>
-
 <p>On my free time i'm daydreaming and listening to podcasts 🎡
 
 <h2>Skills</h2>
