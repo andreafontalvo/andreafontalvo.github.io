@@ -24,7 +24,7 @@ Puedes ver algunas de mis fotos en mi <a href="https://www.flickr.com/photos/and
 
 <p>
 <br>Hola! 
-<br>I'm Andrea.
+<br>I'm <b>Andrea</b>.
 </p>
 
 <p>I was born and raised in Barranquilla (🇨🇴), but now i live in Madrid (🇪🇸).</p>
