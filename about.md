@@ -22,20 +22,19 @@ layout: page
 <p>
 <br>Hola! 
 <br>I'm <b>Andrea</b>.
+</p>
 
 <p>
 I was born and raised in Barranquilla (🇨🇴), but now i live in Madrid (🇪🇸).
 </p>
 
 <p>
-🎓 I studied electronics and electrical engineering back in my home country, and a master in Automation and Robotics at the Polytechnic University of Madrid. 
-<br>
-👩🏽‍💻 My field of work includes signal processing, machine learning and graphical user interfaces for scientific applications. 
-<br>
-📷 I'm also into photography!
+🎓 I studied electronics and electrical engineering back in my home country, and a master in Automation and Robotics at the Polytechnic University of Madrid. 👩🏽‍💻 My field of work includes signal processing, machine learning and graphical user interfaces for scientific applications. 📷 I'm also into photography!
 </p>
 
-<p>In my spare time I daydream and listen to podcasts 🎡
+<p>
+In my spare time I daydream and listen to podcasts 🎡
+</p>
 
 <!-- <h2>Skills</h2>
 <ul class="skill-list">
