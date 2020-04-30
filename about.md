@@ -22,7 +22,6 @@ layout: page
 <p>
 <br>Hola! 
 <br>I'm <b>Andrea</b>.
-</p>
 
 <p>I was born and raised in Barranquilla (🇨🇴), but now i live in Madrid (🇪🇸).</p>
 
@@ -33,9 +32,10 @@ layout: page
 <br>
 📷 I'm also into photography!
 <br/>
+
 <p>In my spare time I daydream and listen to podcasts 🎡
 
-<h2>Skills</h2>
+<!-- <h2>Skills</h2>
 <ul class="skill-list">
 	<li>Signal processing</li>
 	<ul>
@@ -45,4 +45,4 @@ layout: page
 	<li>Machine learning</li>
 	<li>Robotics</li>
 	<li>Creative thinking</li>
-</ul>
+</ul> -->
