@@ -29,7 +29,9 @@ I was born and raised in Barranquilla (🇨🇴), but now i live in Madrid (🇪
 </p>
 
 <p>
-🎓 I'm a professional in electronics and electrical engineering, with a master in Automation and Robotics from the Polytechnic University of Madrid. 👩🏽‍💻 My field of work includes signal processing, machine learning and graphical user interfaces for scientific applications. 📷 I'm also into photography!
+🎓 I'm a professional in electronics and electrical engineering, with a master in Automation and Robotics from the Polytechnic University of Madrid. 
+<br>
+👩🏽‍💻 My field of work includes signal processing, machine learning and graphical user interfaces for scientific applications. 📷 I'm also into photography!
 </p>
 
 <p>
