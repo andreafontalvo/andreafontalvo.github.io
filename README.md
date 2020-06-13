@@ -1,42 +1,68 @@
-<p align="center">
-</p>
-<p align="center">Template for personal blogging from Sérgio Kopplin</p><hr>
-<p align="center">
-    <b><a href="README.md#what-has-inside">What has inside</a></b>
-    |
-    <b><a href="README.md#setup">Setup</a></b>
-    |
-    <b><a href="README.md#how-to">How to</a></b>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## What has inside
+## Available Scripts
 
-- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
-- Tests with [Travis](https://travis-ci.org/)
-- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
-- No JS. :sunglasses:
+In the project directory, you can run:
 
-## Setup
+### `npm start`
 
-2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
-4. Write some posts :bowtie:
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you want to test locally on your machine, do the following steps also:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
-2. Clone the forked repo on your machine
-3. Enter the cloned folder via terminal and run `bundle install`
-4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
-5. Open it in your browser: `http://localhost:4000`
-6. Test your app with `bundle exec htmlproofer ./_site`
-7. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
+### `npm test`
 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## How To?
+### `npm run build`
 
-Check the [FAQ](./FAQ.md) if you have any doubt or problem.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

@@ -1,0 +1,116 @@
+.container{
+    font-family: "HelveticaNeue-Light";    
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+
+  }
+  
+  .img-cont {
+    text-align: center;
+  }
+  
+  .text-cont{
+    text-align: left;
+
+  }
+
+  .circle-img {
+    border-radius: 100%;
+    position: absolute;
+    width: 220px;
+    right:5%;
+    box-shadow: -10px 10px 50px 0px rgba(22, 22, 22, 0.5);
+
+  }
+
+  .circle-img:hover {
+    transition: all .3s;
+    opacity: 0.8;
+  }
+
+  .salute-text {
+    color: #404040;
+    font-size: 50px;
+    font-style: "regular";
+
+  }
+  .name-text{
+    color: #404040;
+    font-size: 50px;
+
+  }
+    .name-box{
+    background-image: linear-gradient(to right, rgba(255, 255, 255,0) 50%, #E4C4FF 50%);
+    background-position: bottom right;
+
+  }
+
+  .description-text {
+    color: #b0b0b0;
+    width: 70%;
+    font-size: 30px;
+  }
+
+  .links-cont{
+    display: inline-block;
+
+  }
+
+  .link-icon{
+    color: #404040;
+    margin: 10px;
+
+  }
+
+  .link-icon:hover {
+    color: #b87ee7;
+    transition: all .3s;
+    opacity: 1;
+  }
+
+  .footer-text{
+    position: absolute;
+    color: #b0b0b0;
+    font-size: 13px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+   }
+
+   .divisor{
+     margin:50px;
+   }
+
+   @media (max-width: 768px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .circle-img {
+      position: relative;
+      width: 190px;
+      right:0%;
+
+    }
+
+    .text-cont{
+      text-align: center;
+  
+    }
+    
+    .salute-text {
+      margin-top: 30px;
+      font-size: 40px;
+  
+    }
+    .name-text{
+      font-size: 40px;
+  
+    }
+  
+    .description-text {
+      font-size: 25px;
+      width: 100%;
+    }
+
+  }
