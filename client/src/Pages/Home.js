@@ -66,7 +66,7 @@ export default class Home extends Component {
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={ig}><FontAwesomeIcon icon={faInstagram} size="2x" /> </a>
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={linkedin}><FontAwesomeIcon icon={faLinkedin} size="2x"/> </a>
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={github}><FontAwesomeIcon icon={faGithub} size="2x" /> </a>
-                                <a target="_blank" rel="noopener noreferrer" className="link-icon" href={flickr}><FontAwesomeIcon icon={faFlickr} size="2x" /> </a>
+                                {/* <a target="_blank" rel="noopener noreferrer" className="link-icon" href={flickr}><FontAwesomeIcon icon={faFlickr} size="2x" /> </a> */}
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={spotify}><FontAwesomeIcon icon={faSpotify} size="2x" /> </a>
 
                             </div>
