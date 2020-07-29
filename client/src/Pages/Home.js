@@ -17,6 +17,7 @@ const ig = "https://www.instagram.com/andreacfontalvo/";
 const linkedin = "https://www.linkedin.com/in/andreafontalvo/";
 const github = "https://github.com/andreafontalvo";
 const flickr = "https://www.flickr.com/photos/andreafontalvo";
+const spotify = "https://open.spotify.com/show/66FB7COp91WSD0HY7SaDfI";
 /*const profileLink = "http://andreafontalvo.com/about"; */
 
 var footerText = "Made with 💜";
@@ -41,22 +42,23 @@ export default class Home extends Component {
                         <Col sm={12} md={7} xs={12}>
                             <div className="text-cont">
                                 <h1 className="salute-text">
+                                    Hi,
+                                </h1>
+                                <h1 className="name-text">I'm <b className="name-box"> {name} </b></h1>
 
-                                    <Typewriter
+                                <h3 className="description-text"> 
+                                <Typewriter
                                         options={{
-                                            strings: ['Hola','Hello', 'Ciao', 'Hallo', 'Bonjour','Ajá'],
+                                            strings: ['Electronics Engineer','Podcast enthusiast', 'Traveller and photo-taker'],
                                             autoStart: true,
                                             loop: true                                           
                                         }}
                                     />
-
-                                </h1>
-                                <h1 className="name-text">I'm <b className="name-box"> {name} </b></h1>
-                                <h3 className="description-text"> {descrp} </h3>
+                                </h3>
                             </div>
                         </Col>
                     </Row>
-                    <br />
+                    <br />                    
                     <br />
                     <Row>
                         <Col sm={12} md={12} xs={12}>
@@ -65,6 +67,8 @@ export default class Home extends Component {
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={linkedin}><FontAwesomeIcon icon={faLinkedin} size="2x"/> </a>
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={github}><FontAwesomeIcon icon={faGithub} size="2x" /> </a>
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={flickr}><FontAwesomeIcon icon={faFlickr} size="2x" /> </a>
+                                <a target="_blank" rel="noopener noreferrer" className="link-icon" href={spotify}><FontAwesomeIcon icon={faSpotify} size="2x" /> </a>
+
                             </div>
                         </Col>
                     </Row>
