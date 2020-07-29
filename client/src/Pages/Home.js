@@ -46,10 +46,10 @@ export default class Home extends Component {
                                 </h1>
                                 <h1 className="name-text">I'm <b className="name-box"> {name} </b></h1>
 
-                                <h3 className="description-text"> 
+                                <h3 className="description-text">  
                                 <Typewriter
                                         options={{
-                                            strings: ['Engineer','Podcaster','Traveller','Photo-taker'],
+                                            strings: ['Electronics engineer','Podcaster','Traveller','Photo-taker'],
                                             autoStart: true,
                                             loop: true                                           
                                         }}
