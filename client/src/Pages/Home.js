@@ -50,7 +50,7 @@ export default class Home extends Component {
                                 <h3 className="description-text">
                                     <Typewriter
                                         options={{
-                                            strings: ['Electronics engineer', 'Podcaster', 'Traveller', 'Photo-taker'],
+                                            strings: ['Electronics engineer', 'Podcaster', 'Traveler', 'Photo-taker'],
                                             autoStart: true,
                                             loop: true
                                         }}
