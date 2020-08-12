@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
+import ReactTooltip from "react-tooltip";
 import profileImg from '../assets/images/2020.jpg'
 import '../assets/CSS/home.css'
 
@@ -46,25 +47,25 @@ export default class Home extends Component {
                                 </h1>
                                 <h1 className="name-text">I'm <b className="name-box"> {name} </b></h1>
 
-                                <h3 className="description-text">  
-                                <Typewriter
+                                <h3 className="description-text">
+                                    <Typewriter
                                         options={{
-                                            strings: ['Electronics engineer','Podcaster','Traveller','Photo-taker'],
+                                            strings: ['Electronics engineer', 'Podcaster', 'Traveller', 'Photo-taker'],
                                             autoStart: true,
-                                            loop: true                                           
+                                            loop: true
                                         }}
                                     />
                                 </h3>
                             </div>
                         </Col>
                     </Row>
-                    <br />                    
+                    <br />
                     <br />
                     <Row>
                         <Col sm={12} md={12} xs={12}>
                             <div className="links-cont">
-                                <a target="_blank" rel="noopener noreferrer" className="link-icon" href={ig}><FontAwesomeIcon icon={faInstagram} size="2x" /> </a>
-                                <a target="_blank" rel="noopener noreferrer" className="link-icon" href={linkedin}><FontAwesomeIcon icon={faLinkedin} size="2x"/> </a>
+                                <a target="_blank" rel="noopener noreferrer" className="link-icon" href={ig}><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
+                                <a target="_blank" rel="noopener noreferrer" className="link-icon" href={linkedin}><FontAwesomeIcon icon={faLinkedin} size="2x" /> </a>
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={github}><FontAwesomeIcon icon={faGithub} size="2x" /> </a>
                                 {/* <a target="_blank" rel="noopener noreferrer" className="link-icon" href={flickr}><FontAwesomeIcon icon={faFlickr} size="2x" /> </a> */}
                                 <a target="_blank" rel="noopener noreferrer" className="link-icon" href={spotify}><FontAwesomeIcon icon={faSpotify} size="2x" /> </a>
@@ -81,4 +82,5 @@ export default class Home extends Component {
 
         )
     }
+
 }
