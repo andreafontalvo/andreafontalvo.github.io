@@ -14,7 +14,7 @@ import Typewriter from 'typewriter-effect';
 /* YOUR DATA HERE ---------------------------------------------- */
 const name = "Andrea Fontalvo";
 const descrp = "Electronics engineer, tech and podcast enthusiast";
-const ig = "https://www.instagram.com/andreacfontalvo/";
+const ig = "https://www.instagram.com/andreafontalvo/";
 const linkedin = "https://www.linkedin.com/in/andreafontalvo/";
 const github = "https://github.com/andreafontalvo";
 const flickr = "https://www.flickr.com/photos/andreafontalvo";
