@@ -50,7 +50,7 @@
   .name{
     background-color: rgb(255, 255, 255);
     display: flex;
-    font-family: '-apple-system','HelveticaNeue';    
+    /*font-family: '-apple-system','HelveticaNeue';   */ 
     font-size: 56px;
     width: 110%;
     margin: 0;
@@ -59,7 +59,7 @@
   .about-me{
     background-color: rgb(255, 255, 255);
     display: flex;
-    font-family: '-apple-system','HelveticaNeue';    
+    /*font-family: '-apple-system','HelveticaNeue';   */ 
     font-size: 19px;
     width: 110%;
     margin:1;
