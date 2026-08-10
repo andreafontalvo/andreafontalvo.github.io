@@ -1,12 +1,10 @@
-# 🌷 AF | Notes & Photographs
+# 🌺 AF | Notes & Photographs
 
 > A personal space for travel, photography and little things that inspire me.
 
-🌐 **[Visit my website](https://andreafontalvo.github.io/)**
+🌐 **[Visit my website](https://andreafontalvo.github.io/)** 
 
----
-
-## ✨ About
+## About
 
 This repository contains the source code for my personal website and travel & photography blog.
 
@@ -14,17 +12,15 @@ It's a place where I collect and share some of the things I enjoy outside of my 
 
 I'm a Data Engineer and outside of technology, I enjoy photography, traveling, and making things with my hands. This website is where those different sides of me come together. 🤍
 
----
 
-## 📷 What you'll find here
+## What you'll find here
 
 * 📸 Photography & visual stories
 * ✈️ Travel experiences and places I've visited
 * 🌷 Personal notes and discoveries
 
----
 
-## 🛠️ Built with
+## Built with
 
 * **Jekyll** — Static site generator
 * **Ruby** — Site dependencies and tooling
@@ -34,9 +30,9 @@ I'm a Data Engineer and outside of technology, I enjoy photography, traveling, a
 
 Every change pushed to `master` is automatically built and deployed through **GitHub Pages**.
 
----
 
-## 📁 Repository structure
+
+## Repository structure
 
 ```text
 .
@@ -51,14 +47,9 @@ Every change pushed to `master` is automatically built and deployed through **Gi
 └── index.html      # Homepage
 ```
 
----
 
-## 🌐 Website
-
-**[andreafontalvo.github.io](https://andreafontalvo.github.io/)**
 
 This is an ongoing personal project, so the site will continue to evolve as I travel, photograph, create, and learn new things.
 
----
 
-Made with 🌷, curiosity, and a camera.
+Made with 🌺 curiosity, and a camera
