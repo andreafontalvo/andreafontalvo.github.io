@@ -4,7 +4,7 @@ title: "Memories of Japan: Kyoto"
 author: "Andrea Fontalvo"
 categories: photography
 tags: 
-image: tokyo.jpg
+image: kyoto.jpg
 ---
 
 Kyoto was a city that left quite an impression on me. It's very charming, and everywhere you look you want to photograph it. The atmosphere there is really nice too. I wish to go back soon.
